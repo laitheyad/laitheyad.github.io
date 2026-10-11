@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Block Blast Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the Block Blast mobile app.">
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --surface: #ffffff;
+      --ink: #101828;
+      --muted: #475467;
+      --line: #e4e7ec;
+      --blue: #2f6bff;
+      --font: ui-rounded, "SF Pro Rounded", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--blue); text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; border-radius: 4px; }
+
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+
+    header { padding: 28px 0; }
+    header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; color: var(--ink); text-decoration: none; }
+    nav { display: flex; gap: 24px; }
+    nav a { color: var(--muted); text-decoration: none; font-size: 0.95rem; }
+    nav a:hover, nav a[aria-current="page"] { color: var(--ink); }
+
+    .title { padding: 40px 0 36px; border-bottom: 1px solid var(--line); }
+    h1 {
+      font-size: clamp(2rem, 4.6vw, 3rem);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin: 0 0 12px;
+      font-weight: 750;
+    }
+    .effective { margin: 0; color: var(--muted); }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 240px minmax(0, 1fr);
+      gap: 64px;
+      padding: 48px 0 88px;
+      align-items: start;
+    }
+
+    .toc { position: sticky; top: 24px; }
+    .toc h2 { font-size: 0.95rem; margin: 0 0 12px; color: var(--muted); font-weight: 600; }
+    .toc ol { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--line); }
+    .toc li { margin: 0; }
+    .toc a {
+      display: block;
+      padding: 5px 0 5px 16px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    .toc a:hover { color: var(--ink); }
+
+    article { max-width: 68ch; }
+    article h2 {
+      font-size: 1.3rem;
+      letter-spacing: -0.015em;
+      line-height: 1.3;
+      margin: 48px 0 12px;
+      padding-top: 32px;
+      border-top: 1px solid var(--line);
+    }
+    article h2:first-of-type { margin-top: 0; padding-top: 0; border-top: 0; }
+    article p { margin: 0 0 16px; }
+    article ul { margin: 0 0 16px; padding-left: 22px; }
+    article li { margin-bottom: 8px; }
+    article li::marker { color: var(--muted); }
+    .lead { font-size: 1.05rem; color: var(--muted); margin-bottom: 40px; }
+    .note { color: var(--muted); font-size: 0.92rem; margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line); }
+    .overflow { overflow-wrap: anywhere; }
+
+    footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: 0.9rem; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    footer a { color: var(--muted); }
+
+    @media (max-width: 860px) {
+      .layout { grid-template-columns: 1fr; gap: 32px; padding-top: 32px; }
+      .toc { position: static; }
+      .toc ol { columns: 2; column-gap: 24px; border-left: 0; }
+      .toc a { padding-left: 0; }
+    }
+    @media (max-width: 520px) {
+      .toc ol { columns: 1; }
+      nav { gap: 16px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+    @media print {
+      header nav, .toc, footer { display: none; }
+      .layout { display: block; padding: 0; }
+      body { background: #fff; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Laith Obaiyat</a>
+      <nav aria-label="Primary">
+        <a href="index.html#apps">Apps</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="title">
+      <div class="wrap">
+        <h1>Privacy Policy for Block Blast</h1>
+        <p class="effective">Effective date: 2026‑09‑01</p>
+      </div>
+    </div>
+
+    <div class="wrap layout">
+      <nav class="toc" aria-label="Contents">
+        <h2>Contents</h2>
+        <ol>
+          <li><a href="#s1">1. Information Collection and Use</a></li>
+          <li><a href="#s2">2. Cookies and Tracking Technologies</a></li>
+          <li><a href="#s3">3. Your Rights</a></li>
+          <li><a href="#s4">4. Your California Privacy Rights</a></li>
+          <li><a href="#s5">5. Third‑Party Services and Links</a></li>
+          <li><a href="#s6">6. International Data Transfers</a></li>
+          <li><a href="#s7">7. Data Retention</a></li>
+          <li><a href="#s8">8. Children</a></li>
+          <li><a href="#s9">9. Security</a></li>
+          <li><a href="#s10">10. Data Breach Notification</a></li>
+          <li><a href="#s11">11. Changes to This Privacy Policy</a></li>
+          <li><a href="#s12">12. Your Consent</a></li>
+          <li><a href="#s13">13. Contact Us</a></li>
+        </ol>
+      </nav>
+
+      <article>
+        <p class="lead">This privacy policy applies to the Block Blast mobile app (the “App”), together with any related services operated by Laith Obaiyat (collectively, the “Service Provider”).</p>
+
+        <h2 id="s1">1. Information Collection and Use</h2>
+        <p>The Service Provider does not collect, store, or process any personal data from users on its own servers.</p>
+        <p>When you use the App, the following may occur:</p>
+        <ul>
+          <li>The App integrates Google AdMob to display ads. AdMob and its partners may collect and process certain information from your device (such as device identifiers, IP address, app usage data, and approximate location) for advertising purposes, including personalized ads where permitted by law. This data is handled by Google and its partners under their own privacy policies.</li>
+          <li>The App may automatically transmit limited technical information (for example, crash reports or analytics) via third‑party SDKs if such SDKs are integrated. If no such SDKs are used beyond AdMob, then only AdMob processes data as described above.</li>
+        </ul>
+        <p>The Service Provider itself does not:</p>
+        <ul>
+          <li>Require you to create an account or log in.</li>
+          <li>Ask you to provide your name, email, or other personal details.</li>
+          <li>Store any personal data on the Service Provider’s servers.</li>
+        </ul>
+
+        <h2 id="s2">2. Cookies and Tracking Technologies</h2>
+        <p>The App uses third‑party SDKs (including Google AdMob) that may use cookies, mobile identifiers, pixels, and similar technologies to support ad delivery, measurement, and analytics. These technologies are operated by third parties and are governed by their own privacy policies.</p>
+        <p>Where required by applicable law (for example, in the EEA or UK), the App or its third‑party providers will obtain your consent before using non‑essential tracking technologies for personalized advertising. You can manage or withdraw this consent through the consent dialog shown in the App or through your device settings.</p>
+
+        <h2 id="s3">3. Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+          <li>Access, correct, or delete personal data held about you by the Service Provider.</li>
+          <li>Withdraw consent where processing is based on consent.</li>
+          <li>Object to or restrict certain processing where applicable law allows.</li>
+        </ul>
+        <p>Because the Service Provider does not store personal data on its own servers, most data relevant to your use of the App is held by third parties (such as Google AdMob). To exercise your rights with respect to such data, you may:</p>
+        <ul>
+          <li>Contact the Service Provider at <a href="mailto:laithop@gmail.com">laithop@gmail.com</a> for assistance, and/or</li>
+          <li>Use the controls provided by Google and other third parties (for example, Ads Settings, device advertising ID settings).</li>
+        </ul>
+
+        <h2 id="s4">4. Your California Privacy Rights (CCPA/CPRA)</h2>
+        <p>If you are a California resident, you have the right to:</p>
+        <ul>
+          <li>Know what personal information is collected, used, shared, or sold.</li>
+          <li>Request deletion of your personal information.</li>
+          <li>Opt out of the sale or sharing of your personal information.</li>
+          <li>Not be discriminated against for exercising these rights.</li>
+        </ul>
+        <p>The Service Provider does not sell or share your personal information in the manner described by the CCPA/CPRA. Any data processing related to advertising is performed by third parties (such as Google AdMob) under their own policies. To exercise your CCPA/CPRA rights, contact the Service Provider at <a href="mailto:laithop@gmail.com">laithop@gmail.com</a>.</p>
+
+        <h2 id="s5">5. Third‑Party Services and Links</h2>
+        <p>The App uses Google AdMob to serve ads. AdMob has its own Privacy Policy, which governs how Google and its partners handle data collected through the App:</p>
+        <ul>
+          <li>AdMob Privacy Policy: <a class="overflow" href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+        </ul>
+        <p>The Service Provider does not control and is not responsible for the privacy practices of third‑party services.</p>
+
+        <h2 id="s6">6. International Data Transfers</h2>
+        <p>Third‑party providers (such as Google) may transfer personal data to countries outside your country of residence, including outside the European Economic Area (EEA). Where applicable law requires safeguards for international transfers, these providers use appropriate mechanisms, such as:</p>
+        <ul>
+          <li>Standard Contractual Clauses (SCCs) approved by the European Commission.</li>
+          <li>Adequacy decisions or other legally recognized transfer mechanisms.</li>
+        </ul>
+        <p>Data protection laws in other countries may differ from those in your jurisdiction. For more information on how Google handles data transfers, see Google’s Privacy Policy.</p>
+
+        <h2 id="s7">7. Data Retention</h2>
+        <p>The Service Provider does not retain personal data on its own servers.</p>
+        <p>Data processed by third parties (such as Google AdMob) is retained according to their own policies. For example, Google retains ad‑related data in line with its data retention and deletion practices as described in its Privacy Policy.</p>
+
+        <h2 id="s8">8. Children</h2>
+        <p>The App is not intended for children under 16 years of age, or such higher age as required by applicable law. The Service Provider does not knowingly solicit personal data from children or market the App to them.</p>
+        <p>Where parental or guardian consent is required under applicable law, the App is not intended for use without that consent. The Service Provider does not knowingly collect personally identifiable information from children under 16 years of age in violation of applicable law. If the Service Provider discovers that a child has provided personal information in violation of applicable law, the Service Provider will take appropriate steps, including deleting such information where feasible.</p>
+        <p>If you are a parent or guardian and believe your child has provided personal information in connection with the App, please contact the Service Provider at <a href="mailto:laithop@gmail.com">laithop@gmail.com</a>.</p>
+
+        <h2 id="s9">9. Security</h2>
+        <p>The Service Provider takes reasonable measures to protect information processed in connection with the App. However, because the Service Provider does not store personal data on its own servers, most data security measures relating to advertising and analytics are implemented by third‑party providers (such as Google) under their own security practices.</p>
+
+        <h2 id="s10">10. Data Breach Notification</h2>
+        <p>If a data breach occurs that affects personal data processed by the Service Provider, the Service Provider will notify affected users and relevant authorities in accordance with applicable legal requirements.</p>
+        <p>Because the Service Provider does not store personal data on its own servers, any breach involving advertising or analytics data would primarily involve third‑party providers (such as Google), who will handle notifications in line with their own policies and legal obligations.</p>
+
+        <h2 id="s11">11. Changes to This Privacy Policy</h2>
+        <p>The Service Provider may update this Privacy Policy from time to time. Material changes will be communicated by posting the updated Privacy Policy with a new “effective date.” Where required by law, the Service Provider will seek your consent before material changes take effect.</p>
+        <p>Previous versions of this Privacy Policy will be maintained and made available upon request by contacting the Service Provider at <a href="mailto:laithop@gmail.com">laithop@gmail.com</a>.</p>
+
+        <h2 id="s12">12. Your Consent</h2>
+        <p>Where processing is based on consent (for example, for personalized ads in regions where this is required), you provide that consent by affirmatively opting in through the consent dialog shown in the App or via device settings. You may withdraw consent at any time without affecting processing carried out before withdrawal.</p>
+
+        <h2 id="s13">13. Contact Us</h2>
+        <p>If you have any questions regarding privacy while using the App, or about the Service Provider’s practices, please contact the Service Provider via email at <a href="mailto:laithop@gmail.com">laithop@gmail.com</a>.</p>
+
+        <p><strong>Effective date: 2026‑09‑01</strong></p>
+
+        <p class="note">This privacy policy page was generated using an App Privacy Policy Generator and adapted by the Service Provider.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>&copy; <span id="year">2026</span> Laith Obaiyat. All rights reserved.</span>
+      <a href="index.html">Back to home</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
